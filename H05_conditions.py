@@ -1,14 +1,10 @@
-f = open("text.txt","r")
-print(type(f))
-x= f.readline()
-print(x)
-f.close()
+#fix code
 temperature = 30
 if temperature > 25:
     print("It's warm outside!")
 else:
     print("It's cool.")
-#Task2
+#Task2, determine if a number is positive negative or 0
 x = input()
 x=float(x)
 if x > 0:
@@ -17,7 +13,7 @@ if x < 0:
     print("Negative")
 if x == 0:
     print("Zero")
-#Task3
+#Task3, determine if numbers are even or odd
 a = input()
 b = input()
 a=float(a)
