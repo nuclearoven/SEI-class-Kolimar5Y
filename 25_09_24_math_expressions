@@ -1,23 +1,25 @@
+#substract
 def substract(a, b):
     return a - b
 print(substract(3, 5))
-
+#multiply
 def multiply(a, b):
     return a * b
 print(multiply(3, 5))
-
+#divide
 def divide(a, b):
     return a / b
 print(divide(3, 5))
-
+#floordivide
 def floordivide(a, b):
     return a // b
 print(floordivide(3, 5))
-
+#modulus
 def modulus(a, b):
     return a % b
 print(modulus(3, 5))
-
+#power
 def power(a, b):
     return pow(a, b)
 print(power(3, 5))
+
